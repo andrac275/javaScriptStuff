@@ -18,28 +18,32 @@ body {
 }
 
 .dropdown-content{
-    display: none;
-    position: absolute;
+    display: none; /*Que no se vea nada en el boton a no ser que se ponga el raton encima (linea 46)*/
+    position: absolute; /*Se usa absolute cuando algo, en esto caso los links, estan en una poscion
+    adyacente a otro algo, en este caso el boton de Dropdown*/
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a{
+.dropdown-content a{ /*Para los links dentro del dropdown*/
     color: black;
-    padding: 12px 16px;
+    padding: 12px 16px; /*PaddingVertical PaddingHorizontal*/
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover{
+    /*Para cuando se pasa el raton por encima de los links del menu*/
     background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-btn{
+    /*Cambiar el color del boton al pasarlo encima*/
     background-color: #3e8e41;
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content{ /*Esta propiedad es para que cuando se ponga el raton encima
+    del boton se muestre el contenido*/
     display:block;
 }
