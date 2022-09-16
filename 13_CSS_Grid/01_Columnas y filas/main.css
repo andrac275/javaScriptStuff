@@ -11,7 +11,10 @@ body {
         De la cuarta en adelante (D,E,F), como no decimos nada, lo hace 
             automatico y automatico es que coge la separacion del contenido del grid
     */
+
     /* grid-template-rows: 50px 100px 75px; */
+
+
 
     /*
         *grid-template-columns crea columnas con el tamaño especificado.
@@ -24,6 +27,7 @@ body {
         *Se pueden combinar entre varias:
              grid-template-columns: 2rem 20% 1fr 2fr;
     */
+    
     grid-template-columns: 50px 100px 75px;
     /* grid-template-columns: 1fr 2fr 3fr ; */
     /* grid-template-columns: 2rem 20% 1fr 2fr; */
