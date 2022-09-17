@@ -1,0 +1,3 @@
+Grid se usa pensando en tener una tabla con distintas filas y distintas columnas. Multiples dimensiones.
+
+Flexbox se utiliza pensando que solo se tiene un unico elemento fila Ó columna y se colocan los elementos dentro de la fila o de la columna
