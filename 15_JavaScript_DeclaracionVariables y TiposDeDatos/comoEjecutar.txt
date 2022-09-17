@@ -1,0 +1,2 @@
+Para ejecutar un archivo de javascript es:
+node nombreArchivo.js
