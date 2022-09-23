@@ -1,0 +1,4 @@
+Esto es un minicurso de como configurar y usar FireBase de youtube y como hacer las operaciones CRUD.
+
+https://www.youtube.com/watch?v=ey4k6mW9ds4
+https://www.youtube.com/watch?v=ey4k6mW9ds4
